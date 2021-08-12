@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+  <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+  <title>wxkj</title>
+  <link rel="stylesheet" href="css/fullpage.css" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="iconfont/iconfont.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/fullpage.js"></script>
+  <script src="js/mypage.js"></script>
+  <!--引用百度地图API-->
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Lr36G1ElN7cZBbIobq1W72bA2LPj9GEI"></script>
+</head>
+
+<body>
+  <div id="fullpage">
+    <div class="section section1">
+      <header>
+        <img src="image/logo.png">
+        <div class="nav">
+          <ul>
+            <li><a href="#section1">首页</a></li>
+            <li><a href="#section2">关于我们</a></li>
+            <li><a href="#section4">合作项目</a></li>
+            <li><a href="#section6">企业资讯</a></li>
+            <li><a href="#section7">联系我们</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="cont">
+        <div>
+          <p>领航未来，成就梦想</p>
+          <p>Lead the future and achieve your dreams</p>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="section2">
+      <div class="aboutus">
+        <p class="pagetitle">关于我们</p>
+        <p class="pagetitleen">ABOUT US</p>
+      </div>
+      <p class="name">海南悟行科技有限公司</p>
+      <p class="text">成立于2019年03月21日办公室地址位于素有"椰城"美称的海口，
+        海南省海口市龙华区滨海街道南洋大厦1407，我们始终为客户提供好的产品和技术支持、健全的售后服务</p>
+      <img src="image/section2.png" />
+    </div>
+    <div class="section section3">
+      <p>应用范围</p>
+      <ul class="titlelist">
+        <li class="gov">政府</li>
+        <li class="edu">教育</li>
+        <li class="com">企业</li>
+        <li class="tri">旅游</li>
+      </ul>
+      <ul class="scrollpic">
+        <li><img src="image/government1.jpg" alt=""></li>
+        <li><img src="image/government2.jpg" alt=""></li>
+        <li><img src="image/government3.jpg" alt=""></li>
+        <li><img src="image/government4.jpg" alt=""></li>
+
+        <li><img src="image/government4.jpg" alt=""></li>
+        <li><img src="image/government3.jpg" alt=""></li>
+        <li><img src="image/government2.jpg" alt=""></li>
+        <li><img src="image/government1.jpg" alt=""></li>
+
+        <li><img src="image/company1.jpg" alt=""></li>
+        <li><img src="image/company2.jpg" alt=""></li>
+        <li><img src="image/company3.jpg" alt=""></li>
+        <li><img src="image/company4.jpg" alt=""></li>
+
+        
+        <li><img src="image/company4.jpg" alt=""></li>
+        <li><img src="image/company3.jpg" alt=""></li>
+        <li><img src="image/company2.jpg" alt=""></li>
+        <li><img src="image/company1.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div class="section" id="section4">
+      <p class="pagetitle">合作项目</p>
+      <p class="pagetitleen">COOPERATION PROJECT</p>
+      <ul>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+      </ul>
+    </div>
+    <div class="section section5">
+      <div class="partner">
+        <p class="pagetitle">合作伙伴</p>
+        <p class="pagetitleen">COOPERATION PARTNER</p>
+      </div>
+      <ul>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+      </ul>
+      <ul>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+        <li><img src="image/cooperationpro.png" alt=""></li>
+      </ul>
+    </div>
+    <div class="section" id="section6">
+      <p class="pagetitle">企业资讯</p>
+      <p class="pagetitleen">ENTERPRISE CONSULTATION</p>
+    </div>
+    <div class="section" id="section7">
+      <div class="contact">
+        <p class="pagetitle7">联系我们</p>
+        <p class="pagetitle7en">CONTACT US</p>
+      </div>
+      <ul>
+        <li><i class="iconfont icon-dianhua2"></i> 0898-68575375</li>
+        <li><i class="iconfont icon-210"></i>海南省海口市龙华区滨海街道南洋大厦1407</li>
+        <li><i class="iconfont icon-youxiang"></i>576572951@qq.com</li>
+      </ul>
+      <div style="width:400px;height:300px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+      </p>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+  //创建和初始化地图函数：
+  function initMap() {
+    createMap();//创建地图
+    setMapEvent();//设置地图事件
+    addMapControl();//向地图添加控件
+    addMapOverlay();//向地图添加覆盖物
+  }
+  function createMap() {
+    map = new BMap.Map("map");
+    map.centerAndZoom(new BMap.Point(110.326658, 20.028803), 15);
+  }
+  function setMapEvent() {
+    map.enableScrollWheelZoom();
+    map.enableKeyboard();
+    map.enableDragging();
+    map.enableDoubleClickZoom()
+  }
+  function addClickHandler(target, window) {
+    target.addEventListener("click", function () {
+      target.openInfoWindow(window);
+    });
+  }
+  function addMapOverlay() {
+    var markers = [
+      { content: "", title: "", imageOffset: { width: -46, height: -21 }, position: { lat: 20.035511, lng: 110.321556 } },
+    ];
+    for (var index = 0; index < markers.length; index++) {
+      var point = new BMap.Point(markers[index].position.lng, markers[index].position.lat);
+      var marker = new BMap.Marker(point, {
+        icon: new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png", new BMap.Size(20, 25), {
+          imageOffset: new BMap.Size(markers[index].imageOffset.width, markers[index].imageOffset.height)
+        })
+      });
+      var label = new BMap.Label(markers[index].title, { offset: new BMap.Size(25, 5) });
+      var opts = {
+        width: 200,
+        title: markers[index].title,
+        enableMessage: false
+      };
+      var infoWindow = new BMap.InfoWindow(markers[index].content, opts);
+      marker.setLabel(label);
+      addClickHandler(marker, infoWindow);
+      map.addOverlay(marker);
+    };
+  }
+  //向地图添加控件
+  function addMapControl() {
+    var scaleControl = new BMap.ScaleControl({ anchor: BMAP_ANCHOR_BOTTOM_LEFT });
+    scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+    map.addControl(scaleControl);
+    var navControl = new BMap.NavigationControl({ anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_LARGE });
+    map.addControl(navControl);
+    var overviewControl = new BMap.OverviewMapControl({ anchor: BMAP_ANCHOR_BOTTOM_RIGHT, isOpen: true });
+    map.addControl(overviewControl);
+  }
+  var map;
+  initMap();
+  var timer;
+  var index=0;
+  imgW = $('.scrollpic li').innerWidth();
+  txtLight();
+  autoRun();
+  //自动轮播
+  function autoRun() {
+    timer = setInterval(function(){ $('.scrollpic').animate({"marginleft":-imgW*4},2000,function(){
+      $('.scrollpic li').slice(0,4).appendTo('.scrollpic');
+      $('.scrollpic').css("marginleft","0px");
+      txtLight();
+    })}, 3000)
+  }
+  function txtLight() {
+    if(index>3){
+      index=0;
+    }
+    $('.titlelist li').eq(index-1).removeClass("light");
+    $('.titlelist li').eq(index).addClass("light");
+    index++;
+  }
+  $('.gov').click(function(){
+    clearInterval(timer);
+    $('.titlelist li').eq(index-1).removeClass("light");
+    index=0;
+    $('.titlelist li').eq(index).addClass("light");
+    for(i=5;i++;i<8){
+      console.log(i);
+      $('.scrollpic li').eq(i).addClass("imgshow")
+    };
+    autoRun();
+  })
+  //鼠标移到图片上清楚定时器，移出开始自动轮播
+  $('.scrollpic li').hover(function(){
+    clearInterval(timer),autoRun()
+  })
+
+  // function picRun() {
+  //   $('.scrollpic').animate({"marginleft":-imgW*4},1000,function(){
+  //     $('.scrollpic li').slice(0,4).appendTo('.scrollpic');
+  //     $('.scrollpic').css("marginleft","0px");
+  //   })
+  // }
+
+</script>
+
+</html>

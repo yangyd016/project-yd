@@ -1,0 +1,65 @@
+{
+  "id": "2685308",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5168119",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10056835",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "11463951",
+      "name": "电话",
+      "font_class": "dianhua1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "17095567",
+      "name": "地点",
+      "font_class": "210",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "18311748",
+      "name": "电 话",
+      "font_class": "dianhua2",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "14471387",
+      "name": "性别-男",
+      "font_class": "xingbie-nan",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "14471514",
+      "name": "性别-女",
+      "font_class": "xingbie-nv",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "5168127",
+      "name": "性别",
+      "font_class": "xingbie",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
