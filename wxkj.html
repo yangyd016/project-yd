@@ -207,17 +207,6 @@
     $('.titlelist li').eq(index).addClass("light");
     index++;
   }
-  $('.gov').click(function(){
-    clearInterval(timer);
-    $('.titlelist li').eq(index-1).removeClass("light");
-    index=0;
-    $('.titlelist li').eq(index).addClass("light");
-    for(i=5;i++;i<8){
-      console.log(i);
-      $('.scrollpic li').eq(i).addClass("imgshow")
-    };
-    autoRun();
-  })
   //鼠标移到图片上清楚定时器，移出开始自动轮播
   $('.scrollpic li').hover(function(){
     clearInterval(timer),autoRun()

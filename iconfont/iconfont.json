@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "10080005",
+      "name": "天气",
+      "font_class": "tianqi",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "10167990",
+      "name": "天气",
+      "font_class": "tianqi1",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
       "icon_id": "5168119",
       "name": "电话",
       "font_class": "dianhua",
